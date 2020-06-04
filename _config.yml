@@ -1,0 +1,78 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Glitched's blog
+email: nexnelx@gmail.com
+description: A noob who wants become a pro.
+url: http://glitched.co
+baseurl: ""
+keywords: ["blog", "jekyll"]
+
+plugins: [jekyll-paginate]
+paginate_path: "/page:num/"
+paginate: 5
+
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Asia/Kolkata
+markdown:          kramdown
+highlighter:       rouge
+
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: glitched
+  avatar: glitched.jpg
+  job: "Programmer"
+  bio: "A noob who wants become a pro"
+  email: nexnelx@gmail.com
+  disqus-shortname:
+  twitter: Glitched_15
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: IonicNeel
+  nhentai: #3320932/kohlexhero
+  myanimelist: Glitched15
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  skype: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: #username
