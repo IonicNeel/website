@@ -25,4 +25,3 @@ create about page
 
 ### Just waste commits to refresh deploy
 chalja bhai
-pls work
